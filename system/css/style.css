@@ -1,0 +1,1026 @@
+/*============================================
+               Place holders
+==============================================*/
+
+input:-moz-placeholder {
+  color: #B3B3B3;
+}
+
+input:-ms-input-placeholder {
+  color: #B3B3B3;
+}
+
+input::-webkit-input-placeholder {
+  color: #B3B3B3;
+}
+
+.errorLogin{
+  color: #FF4040;
+  font-size: 12px;
+  margin: 0;
+  text-align: center;
+}
+
+.controls input + p{
+  position: absolute;
+  left: 232px;
+  top: 3px;
+  color: #FF4040;
+  font-size: 11px;
+  margin: 0;
+  width: 100%;
+}
+
+.controls{
+  position: relative;
+}
+
+/*============================================
+                Registro y Login
+==============================================*/
+
+#body_register{
+  width: 100%;
+  background: url(../img/bgdark_hood.png) repeat 0 0;
+}
+#formRegister #prependedInput.span3, #formRegister #inputIcon.span3, #formLogin #prependedInput.span3, #formLogin #inputIcon.span3{
+  width: 179px;
+}
+
+.logo_hood_Reg{
+  width: 224px;
+  height: 74px;
+  margin: 150px auto 20px;
+  background: url(../img/hood_big.png) no-repeat 0 0;
+}
+
+.logo_hood_Reg > a{
+  text-decoration: none;
+  margin-left: -99999px;
+}
+
+fieldset.field_Reg{
+  width: 220px;
+  margin: 30px auto;
+  position: relative;
+}
+
+fieldset.field_Reg .btn-small.btn-normal{
+  float: right;
+}
+
+#formRegister.form-horizontal .controls, #formLogin.form-horizontal .controls{
+  margin: 0px;
+}
+
+#formRegister.form-horizontal .control-group, #formLogin.form-horizontal .control-group{
+  margin-bottom: 6px;
+}
+
+#formRegister fieldset > a, #formLogin fieldset > a{
+  color: #B3B3B3;
+  font-size: 9px;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  display: block;
+  text-decoration: underline;
+}
+
+#formRegister input.span3, #formLogin input.span3 {
+    width: 179px;
+}
+
+.send_formRegis:hover{
+  background: #6dae44;
+}
+
+.send_formRegis, .formRegisLogin{
+  float: right;
+  width: 100px;
+  font-weight: bold;
+  background: #6EAB49;
+  border-bottom: 3px solid #4a961d;
+  color: #FFF;
+  padding: 5px 20px;
+  font-style: italic;
+  margin: 8px 0px 0px;
+}
+
+.formRegisLogin{
+  margin: 20px 0px 0px;
+}
+
+.input-prepend{
+  position: relative;
+}
+
+.send_formRegis:hover, .formRegisLogin:hover{
+  background: #338900;
+  border-bottom: 3px solid #346600;
+}
+
+.logo_hood_Log{
+  width: 224px;
+  height: 74px;
+  margin: 200px auto 0;
+  background: url(../img/hood_big.png) no-repeat 0 0;
+}
+
+.logo_hood_Log > a{
+  text-decoration: none;
+  margin-left: -99999px;
+}
+
+
+/*============================================
+                Header
+==============================================*/
+
+body {
+  background-color: #EDEDEE;
+  font-family: 'Lucida Sans Unicode','Lucida Grande',sans-serif;
+}
+
+header{
+  background-color: #363636;
+  height: 58px;
+  -webkit-box-shadow: 0px 6px 3px rgba(0, 0, 0, 0.3);
+-moz-box-shadow:    0px 6px 3px rgba(0, 0, 0, 0.3);
+box-shadow:         0px 6px 3px rgba(0, 0, 0, 0.3);
+}
+
+header > div{
+  margin: 0px auto;
+  float: none;
+}
+
+header h1{
+  background: url(../img/hood.png) no-repeat center center, url(../img/bgd_logo_menu.png) no-repeat 0 0;
+  width: 220px;
+  height: 83px;
+  margin: 0px;
+  float: left;
+}
+
+header h1 > a{
+  margin-left: -99999px;
+}
+
+header form{
+  float: right;
+  margin: 11px 0 0;
+}
+
+header form input[type="text"]{
+  float: left;
+  height: 22px;
+  width: 130px;
+  background-color: #D7D7D7;
+  color: #000000;
+  font-size: 12px;
+  padding: 4px 9px;
+  border: 1px solid #B9B9B9;
+}
+
+header form input:-moz-placeholder {
+  color: #B3B3B3;
+}
+
+header form .btn-group.pull-right {
+  border-left: none;
+  margin: 0px 0 0 4px;
+  padding: 0px 0px;
+}
+
+header > div > a{
+  float: right;
+  margin: 10px 0px 0px 0px;
+  width:40px;
+  height:30px;
+  background: url(../img/mini_icon_hood.png) no-repeat center center #6EAB49;
+  border-bottom: 3px solid #4A961D;
+}
+
+header > div > a:hover{
+  background: url(../img/mini_icon_hood.png) no-repeat center center #338900;
+  border-bottom: 3px solid #346600;
+}
+
+header form .dropdown-menu{
+  min-width: 40px;
+}
+
+.dropdown-menu li{
+  overflow: hidden;
+}
+
+.dropdown-menu a{
+  display: inline-block;
+  padding: 0px;
+}
+
+.dropdown-menu img{
+  margin: 0px 2px 0px 3px;
+}
+
+/*============================================
+                Nevegacion
+==============================================*/
+
+.icon-user.buscarOptions{
+  background: url(../img/buscar_icon.png) no-repeat 0 0;
+  width: 24px;
+  height: 18px;
+}
+
+.icon-user.confOptions{
+  background: url(../img/conf_icon.png) no-repeat 0 0;
+  width: 16px;
+  height: 17px;
+}
+
+.navbar-fixed-top .navbar-inner .container-fluid{
+  margin: 0px auto;
+  padding: 0px 36px;
+  width: 888px;
+}
+
+.menu_group_content{
+  width: 352px;
+  float: right;
+}
+
+.search-query.span2 {
+    float: left;
+    height: 22px;
+}
+
+.dropdown-toggle, .dropdown-toggle:hover{
+  background: #9f9f9f;
+}
+
+.btn-group.pull-right{
+  margin: 11px 15px 0px;
+  padding: 0px 15px;
+  border-left: 2px solid #45494B;
+  border-right: 2px solid #45494B;
+}
+
+.navbar-search.pull-left{
+  margin: 11px 0px 0px 0px;
+}
+
+.navbar-search .btn-group.pull-right{
+  margin: 0px 0px 0px 4px;
+  float: left;
+  padding: 0px;
+}
+
+.navbar-search .btn-group.pull-right a{
+  padding: 6px 8px;
+}
+
+.navbar-search .dropdown-toggle + ul.dropdown-menu li{
+  padding: 3px 0px;
+  border-bottom: 1px solid #B0C996;;
+}
+
+.navbar-search .dropdown-toggle + ul.dropdown-menu li:first-child{
+  padding: 0px 0px 3px;
+}
+
+.navbar-search .dropdown-toggle + ul.dropdown-menu li:last-child{
+  padding: 3px 0px 0px;
+  border-bottom: none;
+}
+
+.navbar-search .dropdown-toggle + ul.dropdown-menu li span a{
+  text-decoration: none;
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  padding: 0px;
+}
+
+.navbar-search .btn-group.pull-right{
+  border: none;
+}
+
+
+.dropdown-toggle, .dropdown-toggle:hover {
+  background: none repeat scroll 0 0 #9F9F9F;
+  display: inline-block;
+  line-height: 18px;
+  padding: 6px 8px;
+}
+
+
+
+
+/*============================================
+                Poste
+==============================================*/
+.container-fluid.container_general{
+  background-color: #F5F5F5;
+  margin: 12px auto;
+  padding: 32px 10px 40px;
+  float: none;
+}
+
+.container_general .row-fluid{
+  margin: 0px 0px 0px 5px;
+}
+
+.container_general .row-fluid .span8{
+  margin: 0px 0px 0px 10px;
+}
+
+
+/*============================================
+                Info usuario Poste
+==============================================*/
+
+.container_general .row-fluid .span4 ul {
+  list-style-type: none;
+  margin: 0px 0px 16px 0px;
+  padding: 0px;
+  border-bottom: 3px solid #B0C996;
+}
+
+.container_general .row-fluid .span4 div{
+  display: block;
+  margin: 0px;
+  background: #D6E4CE;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container_general .row-fluid .span4 ul{
+  background: #D6E4CE;
+}
+
+.container_general .row-fluid .span4 ul li{
+  padding: 0px 0px 10px;
+  display: inline-block;
+  float: right;
+}
+
+.container_general .row-fluid .span4 ul li:first-child{
+  margin: 0px 0px 0px 0px;
+  border-left: 2px solid #FFFFFF;
+}
+
+.container_general .row-fluid .span4 ul li:last-child{
+  margin: 0px 0px 0px 0px;
+  border-right: 3px solid #C3D6B0;
+}
+
+.container_general .row-fluid .span4 div img{
+  float: left;
+  height: 40px;
+  margin: 0px 10px 0px 0px;
+  width: 40px;
+}
+
+.container_general .row-fluid .span4 ul li h1{
+  font-size: 12px;
+  line-height: 12px;
+  margin: 3px 0 10px;
+  text-align: center;
+  font-weight: normal;
+  color: #808285;
+}
+
+.container_general .row-fluid .span4 ul li h2{
+  font-size: 20px;
+  line-height: 20px;
+  margin: 5px 0 0;
+  text-align: center;
+  font-weight: normal;
+}
+
+.container_general .row-fluid .span4 div h1{
+  color: #414142;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+  margin: 2px 0 5px;
+  text-align: left;
+}
+
+.container_general .row-fluid .span4 div h2{
+  color: #808285;
+  font-size: 11px;
+  line-height: 11px;
+  text-align: left;
+  font-weight: normal;
+}
+
+/*============================================
+                Lista Usuarios
+==============================================*/
+
+.container_general .row-fluid .content_top + .span4 ul {
+  padding: 0px;
+  background: none;
+}
+
+.container_general .row-fluid .content_top + .span4 ul li{
+  border-bottom: 2px solid #B0C996;
+  border-right: none;
+  display: block;
+  float: none;
+  margin: 0 0 2px;
+  padding: 10px 10px;
+  background: #D6E4CE;
+  border-left: none;
+}
+
+.container_general .row-fluid .content_top + .span4 ul li:last-child{
+  border-bottom: none;
+  margin: 0px;
+}
+
+.container_general .row-fluid .content_top + .span4 h3, .container_general .row-fluid .span8 h3{
+  color: #FFF;
+  font-size: 14px;
+  margin: 0px 0px 4px 0px;
+  background-color: #309ABF;
+  padding: 2px 14px;
+}
+
+.container_general .row-fluid .content_top + .span4 h3 span{
+  color: #D6EBF2;
+  float: right;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+.container_general .row-fluid .content_top + .span4 ul li img{
+  float: left;
+  margin: 2px 10px 0 0;
+}
+
+.container_general .row-fluid .content_top + .span4 ul li h1{
+  color: #414142;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+  margin: 0 0 5px;
+  text-align: left;
+}
+
+.container_general .row-fluid .content_top + .span4 ul li h2{
+  color: #808285;
+  font-size: 11px;
+  line-height: 11px;
+  margin: 0;
+  text-align: left;
+}
+
+.container_general .row-fluid .content_top + .span4 ul li span{
+  color: #808285;
+  font-size: 10px;
+  line-height: 10px;
+  margin: 0 0 5px;
+}
+
+/*============================================
+                Hooder
+==============================================*/
+
+.container_general .row-fluid .span8 form{
+  padding: 14px;
+  margin: 0px 0px 16px;
+  background-color: #D6E4CE;
+  border-bottom: 3px solid #B0C996;
+  position: relative;
+}
+
+.container_general .row-fluid .span8 form textarea{
+  float: left;
+  font-size: 11px;
+  margin: 0;
+  max-height: 87px;
+  max-width: 100%;
+  min-height: 87px;
+  min-width: 100%;
+  padding: 10px;
+  border: none;
+}
+
+.container_general .row-fluid .span8 form div{
+  position: relative;
+}
+
+.container_general .row-fluid .span8 form textarea + a{
+  background: url(../img/add_icon.png) center center no-repeat #309ABF;
+  width: 19px;
+  height: 19px;
+  border-bottom: 3px solid #057497;
+  position: absolute;
+  display: block;
+  bottom: 6px;
+  right: 6px;
+}
+
+.container_general .row-fluid .span8 form input{
+  background: url("../img/button_send_hood.png") no-repeat scroll center center #6EAB49;
+  border: none;
+  border-bottom: 3px solid #4A961D;
+  color: #FFFFFF;
+  font-weight: bold;
+  height: 28px;
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+  width: 80px;
+}
+
+/*============================================
+                Hoods Poste
+==============================================*/
+
+.container_general .row-fluid .span8 section > div{
+  background: #FFF;
+  display: block;
+  box-shadow: 0 6px 3px rgba(0, 0, 0, 0.2);
+  margin: 0 0 14px;
+  padding: 0px;
+}
+
+.container_general .row-fluid .span8 section > div > a{
+  background: #D6E4CE;
+  display: block;
+  margin: 0px 0px 4px 0px;
+  padding: 10px 14px 0px;
+  height: 24px;
+}
+
+.container_general .row-fluid .span8 div img{
+  float: left;
+  height: 40px;
+  margin: 0px 10px 0px 0px;
+  width: 40px;
+}
+
+.container_general .row-fluid .span8 ul li div a{
+  color: #006837;
+}
+
+.container_general .row-fluid .span8 div h1{
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0px 10px 5px 0px;
+  color: #414142;
+  display: inline-block;
+}
+
+.container_general .row-fluid .span8 div h1 a{
+  color: #000;
+  margin: 0px 10px 0px 0px;
+}
+
+.container_general .row-fluid .span8 div h2{
+  font-size: 11px;
+  line-height: 11px;
+}
+
+.container_general .row-fluid .span8 div span{
+  color: #918C8C;
+  font-size: 10px;
+  line-height: 10px;
+  margin: 0 0 5px;
+}
+
+.container_general .row-fluid .span8 div p{
+  font-size: 11px;
+  line-height: 16px;
+  margin: 10px 14px 10px 64px;
+}
+
+.container_general .row-fluid .span8 div p a{
+  color: #4B971D;
+}
+
+.container_general .row-fluid .span8 div div span{
+  float: right;
+  margin: 12px 14px 0px 0px;
+}
+
+.container_general .row-fluid .span8 div div span + span{
+  float: right;
+  padding-right: 10px;
+  border-right: 1px solid #918C8C;
+  margin: 12px 10px 0px 0px;
+}
+
+.container_general .row-fluid .span8 div span{
+  color: #918C8C;
+  font-size: 10px;
+  margin: 0px;
+  line-height: 10px;
+}
+
+.container_general .row-fluid .span8 div span + a{
+  color: #434140;
+  font-size: 12px;
+  line-height: 32px;
+  margin: 0px 0 0 50px;
+  padding-left: 30px;
+}
+
+.container_general .row-fluid .span8 section > div > div{
+  background: #D6E4CE;
+  display: block;
+  margin: 0px 0px 4px 0px;
+  padding: 0px 14px;
+  height: 32px;
+}
+
+/*============================================
+                Clearfix
+==============================================*/
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+/*============================================
+                Perfil Info
+==============================================*/
+
+.hood-body-box{
+  overflow: hidden;
+}
+
+.hood-body-box img{
+  float: left;
+  margin: 0px 10px 0px 20px;
+}
+
+.hood-body-box h1{
+  color: #414142;
+  font-size: 18px;
+  margin: 56px 0px 0px 0px;
+  line-height: 30px;
+}
+
+.hood-body-box h2{
+  color: #808285;
+  font-size: 14px;
+  margin: 0px;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+.hood-body-box span{
+  color: #808285;
+  font-size: 12px;
+  margin: 0px;
+  line-height: 20px;
+}
+
+.hood-body-box > a{
+  float: right;
+  margin-right: 20px;
+}
+
+.hood-body-box > ul.span4{
+  float: right;
+  margin-top: 30px;
+}
+
+.hood-body-box ul li{
+  border-right: 3px solid #C3D6B0;
+  border-left: 2px solid #FFFFFF;
+  margin: 0;
+}
+
+.hood-body-box ul li:first-child {
+  border-right: 3px solid #C3D6B0;
+  border-left: none;
+  margin: 0;
+}
+
+.hood-body-box ul li:last-child {
+  border-right: none;
+  border-left: 2px solid #FFFFFF;
+  margin: 0;
+  padding: 0px 6px;
+}
+
+.hood-body-box ul li{
+  display: inline-block;
+  padding: 0 0 10px;
+}
+
+.hood-body-box ul li h1{    
+  color: #808285;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 12px;
+  margin: 3px 0 10px;
+  text-align: center;
+}
+
+.hood-body-box ul li h2{
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 26px;
+  margin: 5px 0 0;
+  text-align: center;
+}
+
+.hood-body-box ul li a{
+  display: inline-block;
+  margin-left: 13px;
+}
+
+/*============================================
+                Perfil Editar
+==============================================*/
+
+.container_general .row-fluid .span8 .editarPerfil form{
+  padding: 34px 60px 14px 0px;
+}
+
+.container_general .row-fluid .span8 .editarPerfil form p{
+  margin: 10px 0px;
+}
+
+.container_general .row-fluid .span8 .editarPerfil form p input{
+  background: #FFFFFF;
+  bottom: 0px;
+  color: #808285;
+  font-weight: normal;
+  height: 30px;
+  position: static;
+  right: 0px;
+  width: 256px;
+  border: 1px solid #808285;
+  float: right;
+}
+
+.editarPerfil form label{
+  float: right;
+  margin: 0px 10px 0px 0px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 38px;
+  color: #414142;
+}
+
+.container_general .row-fluid .span8 .editarPerfil form input{
+  bottom: 0px;
+  height: 30px;
+  position: static;
+  right: 0px;
+  padding: 0px 0px 0px 16px;
+  float: right;
+}
+
+.container_general .row-fluid .span8 .editarPerfil form input.btn-hood, button.btn-hood{
+  margin-top:-2px;
+}
+.container_general .row-fluid .span8 .editarPerfil form .btn-hood:hover{
+  text-decoration:none;
+  color:#FFF;
+}
+.container_general .row-fluid .span8 .editarPerfil form .btn-normal{
+  background:#6EAB49;
+  border-bottom-color:#4B971B;
+}
+.container_general .row-fluid .span8 .editarPerfil form .btn-normal:hover{
+  background:#338900;
+  border-bottom-color:#346600;
+}
+.container_general .row-fluid .span8 .editarPerfil form .btn-normal:active{
+  background:#338900;
+  border-bottom-color:#338900;
+}
+
+.editarPerfil div {
+  margin-top: 60px;
+}
+
+.editarPerfil div p{
+  display: block;
+  text-align: right;
+}
+
+.editarPerfil div a{
+  display: block;
+  float: right;
+  margin: 8px 0px 20px;
+}
+
+
+
+/* Classes for hood, please reutilize */
+/*a{
+  color:#4B971D;
+  font-weight:800;
+  font-style:normal;
+}
+a:hover{
+  color:#4B971D;
+}*/
+.body-container {
+  margin-top: 50px;
+}
+.user-completename{
+  color:#666;
+  font-size:17px;
+  font-weight:800;
+  letter-spacing:-1px;
+}
+.user-description{
+  color:#888;
+  font-size:10px;
+  font-weight:100;
+}
+.user-name{
+  color:#888;
+  font-size:10px;
+  font-weight:100;
+}
+.hood-head-box{
+  background:#309ABF;
+  border-top:1px solid #FFF;
+  padding:10px;
+  position:relative;
+}
+.hood-head-box-title{
+  color:#FFF;
+  font-weight:800;
+  font-size:17px;
+}
+.hood-head-box-count{
+  color:#D6EBF2;
+  font-weight:100;
+  font-size:11px;
+  float:right;
+}
+.hood-body-box{
+  background:#D6E4CE;
+  border-bottom:3px solid #B0C996;
+  padding:15px 0px;
+  margin-right: 11px;
+  margin-bottom: 10px;
+}
+.hood-body-boxie{
+  background:#D6E4CE;
+  border-top:2px solid #FFF;
+  border-bottom:2px solid #B0C996;
+  padding:15px;
+}
+input[placeholder]{
+  font-size:12px;
+  color:#444;
+}
+input{
+  font-size:12px;
+  color:#444;
+}
+.elhood{
+  font-size:13px;
+  color:#444;
+}
+.elhood .hashtag{
+  color:#4B971D;
+  font-weight:800;
+  font-style:normal;
+}
+.elhood .tag-user{
+  color:#4B971D;
+  font-weight:800;
+  font-style:normal;
+}
+.btn-hood{
+  border:none;
+  padding:0;
+  margin:0;
+  padding:7px 15px;
+  border-bottom-width:4px;
+  border-bottom-style:solid;
+  color:#FFF;
+  font-size:16px;
+  font-style:italic;
+  font-weight:800;
+  text-transform:lowercase;
+}
+.btn-small{
+  border:none;
+  padding:0;
+  margin:0;
+  padding:3px 9px;
+  border-bottom-width:4px;
+  border-bottom-style:solid;
+  color:#FFF;
+  font-size:13px;
+  font-style:italic;
+  font-weight:800;
+  text-transform:lowercase;
+}
+/*fix margin on input buttons on chrome (faltan Firefox y los demas de probar)*/
+input.btn-hood, button.btn-hood{
+  margin-top:-2px;
+}
+.btn-hood:hover{
+  text-decoration:none;
+  color:#FFF;
+}
+.btn-normal{
+  background:#6EAB49;
+  border-bottom-color:#4B971B;
+}
+.btn-normal:hover{
+  background:#338900;
+  border-bottom-color:#346600;
+}
+.btn-normal:active{
+  background:#338900;
+  border-bottom-color:#338900;
+}
+.btn-alert{
+  background:#DF3000;
+  border-bottom-color:#993000;
+}
+.btn-alert:hover{
+  background:#9A3000;
+  border-bottom-color:#663000;
+}
+.btn-alert:active{
+  background:#9A3000;
+  border-bottom-color:#9A3000;
+}
+.btn-warn{
+  background:#F15929;
+  border-bottom-color:#C2320D;
+}
+.btn-warn:hover{
+  background:#CC3900;
+  border-bottom-color:#992700;
+}
+.btn-warn:active{
+  background:#CC3900;
+  border-bottom-color:#CC3900;
+}
+.btn-inactive, input.btn-inactive{
+  cursor:default;
+  background:#888;
+  border-bottom-color:#444;
+}
+
+
+/*============================================
+                Hood Modal
+==============================================*/
+
+.modal-body form{
+  padding: 14px;
+  margin: 0px 0px 16px;
+  background-color: #D6E4CE;
+  border-bottom: 3px solid #B0C996;
+  position: relative;
+}
+
+.modal-body form textarea{
+  float: left;
+  font-size: 11px;
+  margin: 0;
+  max-height: 87px;
+  max-width: 100%;
+  min-height: 87px;
+  min-width: 100%;
+  padding: 10px;
+  border: none;
+}
+
+.modal-body form a{
+  background: url(../img/add_icon.png) center no-repeat #309ABF;
+  width: 19px;
+  height: 19px;
+  border-bottom: 3px solid #057497;
+  position: absolute;
+  display: block;
+  bottom: 6px;
+  right: 6px;
+}
+
+.modal-body form input{
+  background: url("../img/button_send_hood.png") no-repeat scroll center center #6EAB49;
+  border: none;
+  border-bottom: 3px solid #4A961D;
+  color: #FFFFFF;
+  font-weight: bold;
+  height: 28px;
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+  width: 80px;
+}
