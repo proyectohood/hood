@@ -107,7 +107,7 @@ function upload_file(){
 	$("#upload_frame").addClass("hide");
 	$("#upload_button").click(function(){
 
-		var url_encoded = window.location.protocol +"//"+ window.location.host +"/"+ (window.location.pathname).split("/")[1] +"/index.php/"+"hood/getLastHood";		
+		var url_encoded = window.location.protocol +"//"+ window.location.host +"/"+ (window.location.pathname).split("/")[1] +"/hood/getLastHood";		
 		
 		$('iframe').contents().find('input[name="userfile"]').click();
 
