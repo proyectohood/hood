@@ -27,8 +27,6 @@ class Editar extends CI_Controller
 		$data['error']='';
 		$data['main_content'] = 'editar';
 		$this->load->view('includes/template', $data);
-		
-	
 	}
 
 	function verifyCredentials(){
@@ -46,14 +44,14 @@ class Editar extends CI_Controller
 			}
 		}
 	}
-	function upload_image(){
+	/*function upload_image(){
 		
 		$this->load->model('Image_model');
 		if($this->input->post('upload')){
 			$config['upload_path'] = realpath('img/userImages/');
 			//chmod($config['upload_path'], 777);
 			$config['allowed_types'] = 'gif|jpg|png';
-			$config['max_size']	= '1000';
+			$config['max_size']	= '500';
 			//$config['max_width']  = '1024';
 			//$config['max_height']  = '768';
 			$userid=$this->session->userdata('id');
@@ -74,32 +72,29 @@ class Editar extends CI_Controller
 				echo "ok";
 			}
 		}else{
-			//var_dump($this->input->post('upload')); die();
 			echo "entro directo aqui"; die();
-			//$this->load->view('gallery');
 		}
 	
-	}
+	}*/
 	function cargar_upload(){
-		$this->load->model("image_model");
+		
+		$this->load->model('Image_model');
+		$userid = $this->session->userdata('id');
 		if($this->input->post('upload')){
-		   $config['upload_path'] = realpath('img/userImages');
-		   //var_dump(is_writable($config['upload_path']));
-		   //chmod($config['upload_path'], 777);
-		   //var_dump(is_writable($config['upload_path']));
-		   $config['allowed_types'] = 'gif|jpg|png';
+		   $config['upload_path'] = realpath(APPPATH. '../img/userImages');
 		   $config['max_size'] = '1000';
-   		   $this->load->library('upload');
-   		   $this->upload->initialize($config);
-   	       if (!$this->image_model->do_upload())
+			$config['max_width'] = '1024';
+			$config['max_height']= '768';
+		   	$config['allowed_types'] = 'gif|jpg|png';
+		   	$this->load->library('upload');
+   		   	$this->upload->initialize($config);
+   	       	if (!$this->Image_model->do_upload($userid))
    			{
     			$error = array('error' => $this->upload->display_errors());
-    			//var_dump($error);
-   			}else{
-    			//$data = array('upload_data' => $this->upload->data());
-   				echo "ok";
+    		}else{
+    			echo "ok";
    			}
-		}else{
+   		}else{
 			$this->load->view('edit_upload');	
 		}
 		

@@ -43,6 +43,10 @@ $(document).ready(function() {
                             $('#errorRegistro').html(data.errorMail);
                             $('#signup-error').modal();
                         }
+                        else if (data.errorUsername) {
+                            $('#signup-error').html(data.errorMail);
+                            $('#signup-error').modal();
+                        }
                     }
                 }
             });
