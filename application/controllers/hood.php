@@ -42,6 +42,16 @@ class Hood extends CI_Controller {
 		$data["records"] = $this->hood_model->getHoodsByIdUser($this->session->userdata('id'),$_POST['iStart'], $_POST['iEnd']);
 		echo json_encode ($data);
 	}
+	public function getHoodsByUsername(){
+		$username = $this->input->post('username');
+		$this->load->model('users_model');
+		$id = $this->users_model->getIdFromUsername($username);
+		
+		$this->load->model("hood_model");
+		$data['currentUsername'] = $this->session->userdata('username');
+		$data["records"] = $this->hood_model->getHoodsByIdUser($id,$_POST['iStart'], $_POST['iEnd']);
+		echo json_encode ($data);
+	}
 
 	public function getLastHood(){
 		$this->load->model("hood_model");
