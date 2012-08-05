@@ -226,7 +226,7 @@ $(document).ready(function(){
 						getHoods("");
 						counterEnd += hoodsViewPerPage; // Define a Range of 15
 						counterStart += hoodsViewPerPage; // Define a Range of 15
-						//console.log("iStartHoods " +iStartHoods + " iEndHoods" + iEndHoods + " counterEnd" + counterEnd+ "counterStart" + counterStart);
+						console.log("iStartHoods " +iStartHoods + " iEndHoods " + iEndHoods + " counterEnd " + counterEnd+ "counterStart " + counterStart);
 					}
 					else{
 						//$(".btnVerMas").hide();
@@ -245,9 +245,9 @@ $(document).ready(function(){
         return {
             init: (function () {
               start();
-             if(page.indexOf('poste') != -1){
+             //if(page.indexOf('poste') != -1){
               	infiteScroll();
-         	 }
+         	 //}
             })()
         };
 	})(jQuery, window);

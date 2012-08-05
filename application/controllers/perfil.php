@@ -24,15 +24,17 @@ class Perfil extends CI_Controller {
 		/*---------------------- Get Info All Users ----------------------*/
 		$hoodsQ = $this->hood_model->getCountHoods($userid);
 		$userQ = $this->hood_model->getCountUsers();
+		$attachmentsQ = $this->hood_model->getCountAttachmentsbyId($userid);
 
 		$data['infoAllUsers'] = $this->hood_model->getInfoUser();
 		$data['numberHoods'] = $hoodsQ[0]['COUNT(*)'];
 		$data['numberUsers'] = $userQ[0]["COUNT(*)"];
+		$data['numberAttachments'] = $attachmentsQ[0]["COUNT(*)"];
 		/*---------------------- Get Info All Users ----------------------*/
 		
 		$data['currentUser'] = $currusername;
-		
-		$data['main_content'] = 'perfil';
+
+		$data['main_content'] = 'poste';
 		$this->load->view('includes/template', $data);
 	}
 

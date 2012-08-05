@@ -57,13 +57,13 @@ class API extends CI_Controller{
 		<language>en-us</language>"; 
 
 		foreach ($data as $i => $row) {
-            $username=$row['username'];
-            $name=$row['name'];
-            $job_position=$row['job_position'];
-            $mail=$row['mail'];
+            $username=$row['user']['username'];
+            $name=$row['user']['name'];
+            $job_position=$row['user']['job_position'];
+            $mail=$row['user']['mail'];
             $url=$row['url']; 
-			$hood=$row['hood']; 
-			$date=$row['date']; 
+			$hood=$row['hoods']['text']; 
+			$date=$row['hoods']['date']; 
 
 			echo "<item> 
 			<username>$username</username>
