@@ -35,7 +35,7 @@
 
             <!-- Atributos de los inputs -->
             <?php 
-              $textHood = array('name' => 'texthood', 'class' => 'span9', 'id' => 'inputTextHood', 'placeholder' => 'Escriba su hood aqui..');
+              $textHood = array('name' => 'texthood', 'class' => 'span9', 'id' => 'inputTextHood', 'placeholder' => 'Escriba su hood aqui..', 'maxlength' => '500');
               $send_button = array('value' => '', 'name' => 'publicar', 'class' => 'btn send_formRegis', 'type' => 'submit', 'id' => 'btnInsertHood');
             ?>
 
@@ -45,6 +45,7 @@
               <a href="#" id="upload_button"></a>
               <iframe id="upload_frame" src="<?php echo base_url();?>index.php/gallery" frameborder="0" scrolling="no"></iframe>
             </div>
+            <span></span>
             <?php echo form_submit($send_button); ?>
           </fieldset>
 
@@ -108,6 +109,11 @@
       </div>
     </div>
 
+
   </div>
+
+
+  
+    
   <script type="text/javascript" src="<?php echo base_url();?>js/chargeHoodsByAjax.js"></script>
 

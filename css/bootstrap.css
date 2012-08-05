@@ -69,7 +69,7 @@ sub {
 img {
   max-width: 100%;
   vertical-align: middle;
-  border: 0;
+  border: 2px solid #FFF;
   -ms-interpolation-mode: bicubic;
 }
 
