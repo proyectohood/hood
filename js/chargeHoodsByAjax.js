@@ -127,7 +127,9 @@ $(document).ready(function(){
 	            html += "<div>";
 	            html += "<span>"+value.time+"</span>";
 	            html += "<span>"+ value.date + "</span>";
-	            html += "<a href='#'>Archivo adjunto.pdf</a>";
+	            if(value.filename != null){
+	            	html += "<a href='"+ window.location.protocol +"//"+ window.location.host +"/files/"+value.filename+"'>"+value.filename+"</a>";
+	            }
 	            html += "</div>";
 	          	html += "</div>";
 			});
