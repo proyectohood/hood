@@ -60,12 +60,12 @@
               foreach ($infoAllUsers as $clave => $valor){ ?>
                 <li class="clearfix">
                   <?php if($valor['username'] == $currentUser){ ?>
-                  <a href="<?php echo base_url() . "index.php/login/"; ?>"><img src="<?php echo base_url() . 'img/userImages/' . $valor['url_img'] ?>"/></a>
-                  <a href="<?php echo base_url() . "index.php/login/"; ?>">
+                  <a href="<?php echo base_url() . "index.php/perfil/"; ?>"><img src="<?php echo base_url() . 'img/userImages/' . $valor['url_img'] ?>"/></a>
+                  <a href="<?php echo base_url() . "index.php/perfil/"; ?>">
                   <?php } 
                   		else{?>
-                  		<a href="<?php echo base_url() . "index.php/login/username/" . $valor['username'] ?>"><img src="<?php echo base_url() . 'img/userImages/' . $valor['url_img'] ?>"/></a>
-                  <a href="<?php echo base_url() . "index.php/login/username/" . $valor['username'] ?>">
+                  		<a href="<?php echo base_url() . "index.php/perfil/show/user/" . $valor['username'] ?>"><img src="<?php echo base_url() . 'img/userImages/' . $valor['url_img'] ?>"/></a>
+                  <a href="<?php echo base_url() . "index.php/perfil/show/user/" . $valor['username'] ?>">
                   <?php } ?>
                     <h1><?php echo $valor['name'] . " " . $valor['last_name']; ?></h1>
                     <h2><?php echo $valor['job_position'] ?></h2>

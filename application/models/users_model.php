@@ -33,5 +33,14 @@ class users_model extends CI_Model
 		$query = $query->result_array();
 		return $query[0]['usersQuantity'];
 	}
+	
+	function getIdFromUsername($username){
+	
+		$query = $this->db->query("Select idUsers from tuser where username='$username'");
+		$query = $query->result_array();
+		//var_dump($query[0]['idUsers']); die();
+		$id = $query[0]['idUsers'];
+		return $id;
+	}
 
 }

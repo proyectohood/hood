@@ -173,18 +173,23 @@ $(document).ready(function(){
 
 		function getHoods(option){
 			var url_encoded = window.location.protocol +"//"+ window.location.host +"/"+ (window.location.pathname).split("/")[1] + "/hood/getAllHoods";
-
+			var parametros = {};
 			if(page.indexOf('perfil') != -1){
-				var url_encoded = window.location.protocol +"//"+ window.location.host +"/"+ (window.location.pathname).split("/")[1] + "/hood/getHoodsByUser";
+				
+				if((window.location.pathname).split("/")[(window.location.pathname).split("/").length - 2] == "user"){
+					parametros.username = (window.location.pathname).split("/")[(window.location.pathname).split("/").length - 1];
+					var url_encoded = window.location.protocol +"//"+ window.location.host +"/"+ (window.location.pathname).split("/")[1] + "/hood/getHoodsByUsername";
+				}
+				else{
+					var url_encoded = window.location.protocol +"//"+ window.location.host +"/"+ (window.location.pathname).split("/")[1] + "/hood/getHoodsByUser";
+				}
 			}
 			else if(page.indexOf('poste') != -1){
 				var url_encoded = window.location.protocol +"//"+ window.location.host +"/"+ (window.location.pathname).split("/")[1] + "/hood/getAllHoods";
 			}
 		
-			var parametros = {
-				"iStart" : iStartHoods,
-				"iEnd" : iEndHoods
-			};
+			parametros.iStart = iStartHoods;
+			parametros.iEnd = iEndHoods;
 			
 			$.ajax({
 				type: 'POST',
