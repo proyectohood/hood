@@ -83,7 +83,7 @@ class hood_model extends CI_Model
     
     public function getCountAttachmentsById($id)
     {
-        $query = $this->db->query("SELECT COUNT(*) FROM tfile JOIN thood ON tfile.THoods_idHoods = idHoods WHERE thood.TUsers_idUsers = $id");
+        $query = $this->db->query("SELECT COUNT(*) FROM tfile JOIN thood ON tfile.THoods_idHoods = thood.idHoods WHERE thood.TUsers_idUsers = $id");
         return $query->result_array();
     }
     public function getUrlAttachments()

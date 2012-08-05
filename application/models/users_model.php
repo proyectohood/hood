@@ -43,4 +43,16 @@ class users_model extends CI_Model
 		return $id;
 	}
 
+	function getUsersByQuery($query){
+		$query = $this->db->query("Select * from tuser where username like '%".$query."%'");
+		$query = $query->result_array();
+		return $query;
+	}
+
+	function getEmailsByQuery($query){
+		$query = $this->db->query("Select * from tuser where email like '%".$query."%'");
+		$query = $query->result_array();
+		return $query;
+	}
+
 }

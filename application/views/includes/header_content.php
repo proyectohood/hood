@@ -15,8 +15,8 @@
         </ul>
       </div>
 
-      <form id="formSearch" action="" method="post">
-        <input type="text" placeholder="Buscar">
+      <form id="formSearch" action="<?php echo base_url() ?>index.php/search/searchbyusername" method="get">
+        <input type="text" placeholder="Buscar" name='q'>
         <div class="btn-group pull-right">
           <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
             <i class="icon-search" id="icon_general_search"></i>

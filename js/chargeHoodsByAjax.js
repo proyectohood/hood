@@ -118,7 +118,7 @@ $(document).ready(function(){
 				if(value.username == currentUser)
 	            	html += "<a href='"+ window.location.protocol +"//"+ window.location.host +"/index.php/perfil/'>";
 	            else
-	            	html += "<a href='"+ window.location.protocol +"//"+ window.location.host +"/index.php/perfil/user/"+value.username+"'>";
+	            	html += "<a href='"+ window.location.protocol +"//"+ window.location.host +"/index.php/perfil/show/user/"+value.username+"'>";
 	            html += "<img src='"+ window.location.protocol +"//"+ window.location.host +"/img/userImages/"+value.url_img+"'/>";
 	            html += "<h1>"+value.user+ ' ' +value.last_name+"</h1>";
 	            html += "<span>@"+ value.username +"</span>";
@@ -226,7 +226,7 @@ $(document).ready(function(){
 						getHoods("");
 						counterEnd += hoodsViewPerPage; // Define a Range of 15
 						counterStart += hoodsViewPerPage; // Define a Range of 15
-						//console.log("iStartHoods " +iStartHoods + " iEndHoods" + iEndHoods + " counterEnd" + counterEnd+ "counterStart" + counterStart);
+						console.log("iStartHoods " +iStartHoods + " iEndHoods " + iEndHoods + " counterEnd " + counterEnd+ "counterStart " + counterStart);
 					}
 					else{
 						//$(".btnVerMas").hide();
@@ -245,9 +245,9 @@ $(document).ready(function(){
         return {
             init: (function () {
               start();
-             if(page.indexOf('poste') != -1){
+             //if(page.indexOf('poste') != -1){
               	infiteScroll();
-         	 }
+         	 //}
             })()
         };
 	})(jQuery, window);

@@ -164,8 +164,10 @@ header h1{
 }
 
 header h1 > a{
-  margin-left: -99999px;
+  text-indent: -99999px;
   display: block;
+  width: 100%;
+  height: 75px;
 }
 
 header form{
@@ -466,7 +468,7 @@ header form .dropdown-menu{
   margin: 0px;
 }
 
-.container_general .span4.listaUsuarios h3, .container_general .row-fluid .span8 h3{
+.container_general .span4.listaUsuarios h3, .container_general .row-fluid .listaHoods h3{
   color: #FFF;
   font-size: 14px;
   margin: 0px 0px 4px 0px;
@@ -601,7 +603,7 @@ header form .dropdown-menu{
                 Hoods Poste
 ==============================================*/
 
-.container_general .row-fluid .span8 section > div{
+.container_general .row-fluid .listaHoods section > div{
   background: #FFF;
   display: block;
   box-shadow: 0 6px 3px rgba(0, 0, 0, 0.2);
@@ -610,33 +612,33 @@ header form .dropdown-menu{
   cursor: pointer;
 }
 
-.container_general .row-fluid .span8 section > div > a{
+.container_general .row-fluid .listaHoods section > div > a{
   background: #D6E4CE;
   display: block;
   margin: 0px 0px 4px 0px;
   padding: 10px 14px 0px;
   height: 24px;
 }
-.container_general .row-fluid .span8 section > div:hover > a, .container_general .row-fluid .span8 section > div:hover > div{
+.container_general .row-fluid .listaHoods section > div:hover > a, .container_general .row-fluid .listaHoods section > div:hover > div{
   background: rgba(110,171,73,0.6);
 }
 
-.container_general .row-fluid .span8 section > div > a h1:hover, .container_general .row-fluid .span8 section > div > div a:hover{
+.container_general .row-fluid .listaHoods section > div > a h1:hover, .container_general .row-fluid .listaHoods section > div > div a:hover{
   text-decoration: underline;
 }
 
-.container_general .row-fluid .span8 div img{
+.container_general .row-fluid .listaHoods div img{
   float: left;
   height: 40px;
   margin: 0px 10px 0px 0px;
   width: 40px;
 }
 
-.container_general .row-fluid .span8 ul li div a{
+.container_general .row-fluid .listaHoods ul li div a{
   color: #006837;
 }
 
-.container_general .row-fluid .span8 div h1{
+.container_general .row-fluid .listaHoods div h1{
   font-size: 14px;
   line-height: 14px;
   margin: 0px 10px 5px 0px;
@@ -645,53 +647,53 @@ header form .dropdown-menu{
   text-transform: capitalize;
 }
 
-.container_general .row-fluid .span8 div h1 a{
+.container_general .row-fluid .listaHoods div h1 a{
   color: #000;
   margin: 0px 10px 0px 0px;
 }
 
-.container_general .row-fluid .span8 div h2{
+.container_general .row-fluid .listaHoods div h2{
   font-size: 11px;
   line-height: 11px;
 }
 
-.container_general .row-fluid .span8 div span{
+.container_general .row-fluid .listaHoods div span{
   color: #918C8C;
   font-size: 10px;
   line-height: 10px;
   margin: 0 0 5px;
 }
 
-.container_general .row-fluid .span8 div p{
+.container_general .row-fluid .listaHoods div p{
   font-size: 11px;
   line-height: 16px;
   margin: 10px 14px 10px 64px;
 }
 
-.container_general .row-fluid .span8 div p a{
+.container_general .row-fluid .listaHoods div p a{
   color: #4B971D;
 }
 
-.container_general .row-fluid .span8 div div span{
+.container_general .row-fluid .listaHoods div div span{
   float: right;
   margin: 12px 14px 0px 0px;
 }
 
-.container_general .row-fluid .span8 div div span + span{
+.container_general .row-fluid .listaHoods div div span + span{
   float: right;
   padding-right: 10px;
   border-right: 1px solid #918C8C;
   margin: 12px 10px 0px 0px;
 }
 
-.container_general .row-fluid .span8 div span{
+.container_general .row-fluid .listaHoods div span{
   color: #918C8C;
   font-size: 10px;
   margin: 0px;
   line-height: 10px;
 }
 
-.container_general .row-fluid .span8 div span + a{
+.container_general .row-fluid .listaHoods div span + a{
   color: #434140;
   font-size: 12px;
   line-height: 32px;
@@ -699,7 +701,7 @@ header form .dropdown-menu{
   padding-left: 30px;
 }
 
-.container_general .row-fluid .span8 section > div > div{
+.container_general .row-fluid .listaHoods section > div > div{
   background: #D6E4CE;
   display: block;
   margin: 0px 0px 4px 0px;
@@ -1154,6 +1156,42 @@ a.icon-tag:hover, .dropdown-menu li:hover a.icon-tag {
   font-size: 12px;
 }
 
+.container_general .row-fluid .span8 .modal form{
+  margin: 0px auto;
+  position: relative;
+  padding: 0px;
+  background: none;
+  border-bottom: none;
+}
+
+.container_general .row-fluid .modal form input{
+  background: #6EAB49;
+  position: static;
+  bottom: 0px;
+  right: 0px;
+  margin: 0px 10px 0px 0px;
+  float: left;
+  width:70px;
+  height: 25px;
+}
+
+.container_general .row-fluid .modal form a{
+  position: static;
+  display: block;
+  top: 0px;
+  right: 0px;
+  background: #F15929;
+  border-bottom-color: #C2320D;
+  float: left;
+  width:70px;
+  height: 22px;
+  padding: 0px;
+  text-align: center;
+  line-height: 22px;
+}
+
+
+
 /*============================================
                 Loading Box
 ==============================================*/
@@ -1170,4 +1208,63 @@ a.icon-tag:hover, .dropdown-menu li:hover a.icon-tag {
 
 .loading-box img{
   border: none;
+}
+
+.container_general .row-fluid .listaResultadosBusqueda a{
+  background: #D6E4CE;
+  display: block;
+  margin-bottom: 5px;
+  border-bottom: 3px solid #B0C996;
+  padding: 6px 0px;
+}
+
+.container_general .row-fluid .listaResultadosBusqueda h3{
+  color: #FFF;
+  font-size: 14px;
+  margin: 0px 0px 4px 0px;
+  background-color: #309ABF;
+  padding: 2px 14px;
+}
+
+.container_general .row-fluid .listaResultadosBusqueda img{
+  width: 70px;
+  height: 70px;
+  margin: 0px 10px 0px 20px;
+  float: left;
+}
+
+.container_general .row-fluid .listaResultadosBusqueda h1{
+  color: #414142;
+  font-size: 16px;
+  margin: 0px;
+  line-height: 18px;
+  text-transform: capitalize;
+}
+
+.container_general .row-fluid .listaResultadosBusqueda h2{
+  color: #808285;
+  font-size: 12px;
+  margin: 0px;
+  line-height: 18px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.container_general .row-fluid .listaResultadosBusqueda div{
+  float: left;
+  margin: 28px 0px 0px;
+}
+
+.container_general .row-fluid .listaResultadosBusqueda p{
+  float: right;
+  margin: 34px 20px 0px 0px;
+}
+
+.container_general .row-fluid .listaResultadosBusqueda span{
+  display: block;
+  color: #808285;
+  font-size: 12px;
+  margin: 0px;
+  line-height: 16px;
+  text-align: right;
 }

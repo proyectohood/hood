@@ -49,7 +49,7 @@
                   <?php } ?>
                     <h1><?php echo $valor['name'] . " " . $valor['last_name']; ?></h1>
                     <h2><?php echo $valor['job_position'] ?></h2>
-                    <span>@<?php echo $valor['name'] ?></span>
+                    <span>@<?php echo $valor['username'] ?></span>
                   </a>
                 </li>
             <?php   

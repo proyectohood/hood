@@ -44,7 +44,7 @@
                   <a href="../perfil">
                     <h1><?php echo $valor['name'] . " " . $valor['last_name']; ?></h1>
                     <h2><?php echo $valor['job_position'] ?></h2>
-                    <span>@<?php echo $valor['name'] ?></span>
+                    <span>@<?php echo $valor['username'] ?></span>
                   </a>
                 </li>
             <?php   
@@ -53,7 +53,7 @@
         </ul>
       </div>
 
-      <div class="span8">
+      <div class="span8 listaHoods">
         <h3>editar perfil</h3>
 
         <div class="editarPerfil">
@@ -109,7 +109,7 @@
         <div class="modal-body">
           <p>¿Est&aacute; seguro que desea desactivar su cuenta?</p>
           <a href="#" class="btn-normal btn-small">Si</a>
-          <a href="#" class="btn-warn btn-small">No</a>
+          <a href="#" class="btn-warn btn-small" class="close" data-dismiss="modal">No</a>
         </div>
       </div>
 

@@ -55,6 +55,7 @@ class Membership_model extends CI_Model {
 	{
 		$user_type=2;
 		$active=2;
+		$url_img = "default.png";
 		$new_member_insert_data = array(
 			'username' => $this->input->post('username'),
 			'password' => md5($this->input->post('password')),
@@ -63,7 +64,8 @@ class Membership_model extends CI_Model {
 			'email' => $this->input->post('email_address'),
 			'job_position' => $this->input->post('job_position'),
 			'user_type' => $user_type,
-			'active' =>  $active
+			'active' =>  $active,
+			'url_img' => $url_img
 		);
 		
 		$insert = $this->db->insert('tuser', $new_member_insert_data);

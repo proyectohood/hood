@@ -71,8 +71,14 @@ $(document).ready(function() {
                         window.location.href = prot + '//' + host + '/index.php/poste/';
                     }
                     else{
-                    	$('#errorIniciarSesion').html(data.error);
-                    	$('#login-error').modal();
+                        if(data.inactive == true){
+                            $('#errorInactive').html(data.error);
+                            $('#inactive-error').modal();
+                        }
+                        else{
+                            $('#errorIniciarSesion').html(data.error);
+                            $('#login-error').modal();    
+                        }
                     }
                 }
             });
@@ -103,6 +109,26 @@ $(document).ready(function() {
                 }
             });
         }
+    });
+
+    $('#formDesactivar').bind('submit', function(e){
+        e.preventDefault();
+        var path = $('#formDesactivar').attr('action');
+        $.ajax({
+            url: path,
+            type: 'POST',
+            success: function(data){
+                var data=JSON.parse(data);
+                if (data.errorUsername) {
+                    $('#edit-error .modal-body').html(data.errorUsername);
+                    $("#modal-desactivarCuenta .close").click();
+                    $('#edit-error').modal();
+                    setTimeout(function(){
+                        window.location="http://www.proyectohood.com";
+                    },3000);
+                }
+            }
+        });
     });
 });
 var currentHoodId = null;
@@ -140,7 +166,7 @@ function upload_file() {
             if ($('iframe').contents().find('input[name="userfile"]').val() != "") {
                 var filepath = $('iframe').contents().find('input[name="userfile"]').val();
                 var filename = filepath.match(/\w+\.\w+/g)[0];
-                $('<span>' + filename + '</span>').appendTo('.content_top');
+                $('.content_top form fieldset span').html(filename);
             }
             else setTimeout(checkFileName, 500);
         }

@@ -58,5 +58,25 @@
 			<p id="errorIniciarSesion"></p>
 		</div>
 	</div>
+	<div id="inactive-error" class="modal hide fade">
+		<div class="modal-header">
+          	<button type="button" class="close" data-dismiss="modal">×</button>
+		    <h1>Error al Iniciar Sesi&oacute;n</h1>
+        </div>
+        <div class="modal-body">
+			<p id="errorInactive"></p>
+			<?php
+			$attributes = array('id' => 'formInactive');
+			echo form_open('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."login/send_email_activate", $attributes);
+			?>
+			<fieldset>
+			<?php
+				$send_button_inactive = array('value' => 'enviar solicitud', 'name' => 'enviar', 'class' => 'btn send_formRegis', 'type' => 'submit', 'id' => 'inactiveSubmit');
+				echo form_submit($send_button_inactive);
+			?>
+			</fieldset>
+			<?php echo form_close(); ?>	
+		</div>
+	</div>
 </body>
 </html>

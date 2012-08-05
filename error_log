@@ -1,0 +1,151 @@
+[05-Aug-2012 03:07:41 UTC] PHP Parse error:  syntax error, unexpected '<' in /home4/mindevel/public_html/proyectohood/application/controllers/gallery.php on line 20
+[05-Aug-2012 03:07:42 UTC] PHP Parse error:  syntax error, unexpected '<' in /home4/mindevel/public_html/proyectohood/application/controllers/gallery.php on line 20
+[05-Aug-2012 05:51:23 UTC] PHP Fatal error:  Call to a member function getInfoUser() on a non-object in /home4/mindevel/public_html/proyectohood/application/controllers/perfil.php on line 57
+[05-Aug-2012 05:51:48 UTC] PHP Parse error:  syntax error, unexpected $end in /home4/mindevel/public_html/proyectohood/application/controllers/perfil.php on line 51
+[05-Aug-2012 05:55:30 UTC] PHP Fatal error:  Class 'Users_model' not found in /home4/mindevel/public_html/proyectohood/system/core/Loader.php on line 303
+[05-Aug-2012 05:55:41 UTC] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/mindevel/public_html/proyectohood/application/models/users_model.php on line 40
+[05-Aug-2012 05:56:03 UTC] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/mindevel/public_html/proyectohood/application/models/users_model.php on line 40
+[05-Aug-2012 05:57:25 UTC] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/mindevel/public_html/proyectohood/application/models/users_model.php on line 41
+[05-Aug-2012 06:02:47 UTC] PHP Parse error:  syntax error, unexpected $end in /home4/mindevel/public_html/proyectohood/application/controllers/perfil.php on line 12
+[05-Aug-2012 10:42:54 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 92
+[05-Aug-2012 10:43:10 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 92
+[05-Aug-2012 10:43:27 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 92
+[05-Aug-2012 10:43:36 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 92
+[05-Aug-2012 10:43:40 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 92
+[05-Aug-2012 13:43:37 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:43:42 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:43:46 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:43:51 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:43:53 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:43:55 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:43:58 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:02 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:07 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:17 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:23 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:25 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:25 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:25 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:25 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:26 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:26 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:26 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:26 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:27 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:27 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:27 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:27 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:28 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:28 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:28 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:28 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:28 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:28 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:29 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:29 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:29 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:29 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:30 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:30 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:30 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:30 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:30 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:30 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:31 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:31 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:32 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:32 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:32 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:32 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:33 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:33 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:33 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:33 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:33 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:34 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:48 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:49 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:49 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:49 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:49 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:49 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:44:57 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:12 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:20 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:20 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:20 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:21 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:21 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:49 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:58 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:58 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:58 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:58 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:58 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:58 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:58 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:59 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:59 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:59 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:59 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:45:59 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:46:00 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:46:00 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:46:00 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:46:00 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:46:07 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:46:09 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 13:46:12 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home4/mindevel/public_html/proyectohood/application/models/hood_model.php on line 56
+[05-Aug-2012 15:18:22 UTC] PHP Fatal error:  Call to undefined method Search::searchUser() in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 15:18:50 UTC] PHP Fatal error:  Call to undefined method Search::searchUser() in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 15:19:06 UTC] PHP Fatal error:  Call to undefined method Search::searchUser() in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 15:19:14 UTC] PHP Fatal error:  Call to undefined method Search::searchUser() in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 15:20:51 UTC] PHP Fatal error:  Call to undefined method Search::searchUser() in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:20:41 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:20:45 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:21:32 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:21:33 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:21:33 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:21:34 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:21:34 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:21:34 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:21:34 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:21:35 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:21:42 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:24:51 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:24:53 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:24:54 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:24:54 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:24:56 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:25:02 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:30:25 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 15
+[05-Aug-2012 16:30:28 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 15
+[05-Aug-2012 16:31:08 UTC] PHP Fatal error:  Cannot redeclare Search::searchEmail() in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 60
+[05-Aug-2012 16:31:09 UTC] PHP Fatal error:  Cannot redeclare Search::searchEmail() in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 60
+[05-Aug-2012 16:31:09 UTC] PHP Fatal error:  Cannot redeclare Search::searchEmail() in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 60
+[05-Aug-2012 16:31:09 UTC] PHP Fatal error:  Cannot redeclare Search::searchEmail() in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 60
+[05-Aug-2012 16:31:09 UTC] PHP Fatal error:  Cannot redeclare Search::searchEmail() in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 60
+[05-Aug-2012 16:31:10 UTC] PHP Fatal error:  Cannot redeclare Search::searchEmail() in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 60
+[05-Aug-2012 16:31:10 UTC] PHP Fatal error:  Cannot redeclare Search::searchEmail() in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 60
+[05-Aug-2012 16:31:10 UTC] PHP Fatal error:  Cannot redeclare Search::searchEmail() in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 60
+[05-Aug-2012 16:54:15 UTC] PHP Fatal error:  Call to undefined method Search::is_logged_in() in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:54:22 UTC] PHP Fatal error:  Call to undefined method Search::is_logged_in() in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 16:55:59 UTC] PHP Fatal error:  Call to undefined method Search::is_logged_in() in /home4/mindevel/public_html/proyectohood/application/controllers/search.php on line 14
+[05-Aug-2012 17:37:18 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home4/mindevel/public_html/proyectohood/application/models/image_model.php on line 32
+[05-Aug-2012 17:38:15 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home4/mindevel/public_html/proyectohood/application/models/image_model.php on line 32
+[05-Aug-2012 17:43:11 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home4/mindevel/public_html/proyectohood/application/models/image_model.php on line 32
+[05-Aug-2012 17:43:59 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home4/mindevel/public_html/proyectohood/application/models/image_model.php on line 32
+[05-Aug-2012 17:45:32 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home4/mindevel/public_html/proyectohood/application/models/image_model.php on line 32
+[05-Aug-2012 17:49:12 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home4/mindevel/public_html/proyectohood/application/models/image_model.php on line 32
+[05-Aug-2012 17:49:46 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home4/mindevel/public_html/proyectohood/application/models/image_model.php on line 32
+[05-Aug-2012 17:51:28 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home4/mindevel/public_html/proyectohood/application/models/image_model.php on line 32
+[05-Aug-2012 17:52:10 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home4/mindevel/public_html/proyectohood/application/models/image_model.php on line 32
+[05-Aug-2012 17:55:21 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home4/mindevel/public_html/proyectohood/application/models/image_model.php on line 32
+[05-Aug-2012 17:56:25 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home4/mindevel/public_html/proyectohood/application/models/image_model.php on line 32
+[05-Aug-2012 17:57:29 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home4/mindevel/public_html/proyectohood/application/models/image_model.php on line 32
+[05-Aug-2012 17:58:17 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home4/mindevel/public_html/proyectohood/application/models/image_model.php on line 32
+[05-Aug-2012 18:27:47 UTC] PHP Parse error:  syntax error, unexpected ';' in /home4/mindevel/public_html/proyectohood/application/models/image_model.php on line 32
+[05-Aug-2012 19:17:48 UTC] PHP Parse error:  syntax error, unexpected '.' in /home4/mindevel/public_html/proyectohood/application/views/results_view.php on line 15
+[05-Aug-2012 19:17:51 UTC] PHP Parse error:  syntax error, unexpected '.' in /home4/mindevel/public_html/proyectohood/application/views/results_view.php on line 15
+[05-Aug-2012 19:17:51 UTC] PHP Parse error:  syntax error, unexpected '.' in /home4/mindevel/public_html/proyectohood/application/views/results_view.php on line 15
+[05-Aug-2012 19:18:09 UTC] PHP Parse error:  syntax error, unexpected '.' in /home4/mindevel/public_html/proyectohood/application/views/results_view.php on line 15

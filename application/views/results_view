@@ -6,11 +6,9 @@
     <div class="row-fluid">
       <div class="span4">
         <div class="clearfix">
-          <a href="<?php echo base_url() ?>index.php/perfil">
-            <img src="<?php echo base_url() .'img/userImages/'. $url_img ?>"/>
-            <h1><?php echo $name . " " . $last_name; ?></h1>
-            <h2><?php echo $job_position ?></h2>
-          </a>
+          <img src="<?php echo base_url() .'img/userImages/'. $url_img ?>"/>
+          <h1><?php echo $name . " " . $last_name; ?></h1>
+          <h2><?php echo $job_position ?></h2>
         </div>
         <ul class="clearfix">
           <li class="span4">
@@ -72,7 +70,7 @@
                   <?php } ?>
                     <h1><?php echo $valor['name'] . " " . $valor['last_name']; ?></h1>
                     <h2><?php echo $valor['job_position'] ?></h2>
-                    <span>@<?php echo $valor['username'] ?></span>
+                    <span>@<?php echo $valor['name'] ?></span>
                   </a>
                 </li>
             <?php   
@@ -81,7 +79,7 @@
         </ul>
       </div>
 
-      <div class="span8 listaHoods">
+      <div class="span8">
         <h3>hoods</h3>
         <section class="hoodsContainer"></section>
             <?php /*
