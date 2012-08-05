@@ -58,6 +58,7 @@ $(document).ready(function(){
 					$(".btnVerMas").show();
 				}
 				updateCountHoodsByUSer();
+				updateCountAttachmentsByUser();
 			});
 		}
 		function getMoreHoods(){
@@ -82,11 +83,24 @@ $(document).ready(function(){
 				}
 			});
 		}
+		function updateCountAttachmentsByUser(){
+			var url_encoded = window.location.protocol +"//"+ window.location.host +"/"+ (window.location.pathname).split("/")[1] +"/hood/getCountAttachmentsByUser";
+
+			$.ajax({
+				type: 'POST',
+				url : url_encoded,
+				success : function(response){
+					var result = jQuery.parseJSON(response);
+					$(".attachmentsAmount").html(result["COUNT(*)"]);
+						
+				}
+			});
+		}
 		function infiteScroll(){
 			$(window).scroll(function () { 
 				var scrollHeight = $(window).scrollTop() + 1;
 				var windowHeight = ($(document).height() - $(window).height());
-				console.log(scrollHeight + " --- " + windowHeight);
+				//console.log(scrollHeight + " --- " + windowHeight);
 				if((scrollHeight >= windowHeight-10) && (scrollHeight <= windowHeight+10)){
 					getMoreHoods();
 				}
