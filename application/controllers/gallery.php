@@ -9,9 +9,6 @@ class Gallery extends CI_Controller{
 			//chmod($config['upload_path'], 777);
 			$config['allowed_types'] = 'gif|jpg|png|pdf|docx|doc';
 			$config['max_size']	= '5000';
-			//$config['max_width']  = '1024';
-			//$config['max_height']  = '768';
-
 			$this->load->library('upload');
 			$this->upload->initialize($config);
 			$hoodid = $this->input->post('hoodid');
