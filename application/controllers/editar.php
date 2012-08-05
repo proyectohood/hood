@@ -6,6 +6,7 @@ class Editar extends CI_Controller
 		
 		$this->load->model("hood_model");
 		$userid = $this->session->userdata('id');
+		$currusername = $this->session->userdata('username');
 		
 		/*---------------------- Get Info Logged User ----------------------*/
 		$userInfo = $this->hood_model->getInfoUser($userid);
@@ -19,10 +20,12 @@ class Editar extends CI_Controller
 		/*---------------------- Get Info All Users ----------------------*/
 		$hoodsQ = $this->hood_model->getCountHoods($userid);
 		$userQ = $this->hood_model->getCountUsers();
-
+		$attachmentsQ = $this->hood_model->getCountAttachmentsbyId($userid);
+		$data['currentUser'] = $currusername;
 		$data['infoAllUsers'] = $this->hood_model->getInfoUser();
 		$data['numberHoods'] = $hoodsQ[0]['COUNT(*)'];
 		$data['numberUsers'] = $userQ[0]["COUNT(*)"];
+		$data['numberAttachments'] = $attachmentsQ[0]["COUNT(*)"];
 		/*---------------------- Get Info All Users ----------------------*/
 		$data['error']='';
 		$data['main_content'] = 'editar';
@@ -92,12 +95,18 @@ class Editar extends CI_Controller
    			{
     			$error = array('error' => $this->upload->display_errors());
     		}else{
-    			echo "ok";
-   			}
+    			echo 'ok';
+    		}
    		}else{
 			$this->load->view('edit_upload');	
 		}
 		
+    }
+
+    function desactive_member(){
+    	$this->load->model('Image_model');
+    	$userid = $this->session->userdata('id');
+    	$this->Image_model->desactive_member($userid);
     }
 
 	function update_member(){

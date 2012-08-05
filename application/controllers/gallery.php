@@ -13,16 +13,15 @@ class Gallery extends CI_Controller{
 			$this->upload->initialize($config);
 			$hoodid = $this->input->post('hoodid');
 			//var_dump($hoodid); die();
-			//var_dump($this->Gallery_model->do_upload($hoodid));  die();
+			//var_dump($this->Gallery_model->do_upload($hoodid));  
 			if (!$this->Gallery_model->do_upload($hoodid))
 			{
+				echo "entro en el error de do_upload gallery_controller.php";
 				$error = array('error' => $this->upload->display_errors());
 				var_dump($error);
 			}
 			else
 			{
-				//$data = array('upload_data' => $this->upload->data());
-
 				echo "ok";
 			}
 		}else{

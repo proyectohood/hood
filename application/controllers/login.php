@@ -33,7 +33,7 @@ class Login extends CI_Controller {
 					}
 					elseif($activo==0){
 						if($this->input->post('is_ajax')){
-							$errorAjax['error'] = array('error'=>'Su cuenta esta desactivada');
+							$errorAjax['error'] = array('error'=>'Su cuenta esta desactivada', 'inactive'=>true);
 							$this->load->view('login_error', $errorAjax);
 						}
 						else{
@@ -129,11 +129,6 @@ class Login extends CI_Controller {
 		}
 		else
 		{
-			//echo "paso bien"; die();
-			//$errorAjax['error'] = array('errorMail'=>$this->form_validation->run());
-			//$this->load->view('register_error', $errorAjax);
-			//$errorAjax['error'] = array('accountCreated'=>true);
-			//$this->load->view('register_error', $errorAjax); 
 			if($this->membership_model->create_member())//call the model function to insert into db
 				{
 					$email = $this->membership_model->getEmail();
@@ -172,8 +167,12 @@ class Login extends CI_Controller {
 		if($this->membership_model->update_username($user)){
 			redirect(base_url());
 		}
+	}
 
-		
+	function send_email_activate(){
+		$this->load->model('membership_model');
+		$id=$this->membership_model->getId();
+		var_dump($id);
 	}
 	
 	/*function validate_User()
