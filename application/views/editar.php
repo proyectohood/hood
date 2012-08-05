@@ -92,11 +92,7 @@
               <a href="#modal-desactivarCuenta" class="btn-hood btn-warn btn-small" data-toggle="modal">desactivar cuenta</a>
             </div>
           <?php echo form_close(); ?>
-<<<<<<< HEAD
-          
-=======
           <iframe id="upload_frame_img" src="<?php echo base_url();?>index.php/editar/cargar_upload" frameborder="0" scrolling="no"></iframe>
->>>>>>> b647cedcf1e0acbae2202f9e85e333d7c7f7dde3
         </div>
         <div id="edit-error" class="modal hide fade"></div>
 

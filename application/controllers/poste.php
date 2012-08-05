@@ -10,6 +10,7 @@ class Poste extends CI_Controller {
 		
 		$this->load->model("hood_model");
 		$userid = $this->session->userdata('id');
+		$currusername = $this->session->userdata('username');
 		
 		/*---------------------- Get Info Logged User ----------------------*/
 		$userInfo = $this->hood_model->getInfoUser($userid);
@@ -30,6 +31,8 @@ class Poste extends CI_Controller {
 		$data['numberUsers'] = $userQ[0]["COUNT(*)"];
 		$data['numberAttachments'] = $attachmentsQ[0]["COUNT(*)"];
 		/*---------------------- Get Info All Users ----------------------*/
+		
+		$data['currentUser'] = $currusername;
 
 		$data['main_content'] = 'poste';
 		$this->load->view('includes/template', $data);

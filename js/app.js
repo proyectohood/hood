@@ -22,7 +22,7 @@ $(document).ready(function() {
                 success: function(data) {
                     var data = JSON.parse(data);
                     if (data.accountCreated) {
-                        $('#signup-error').html('Se ha creado su cuenta, por favor revise su correo para activarla');
+                        $('#errorRegistro').html('Se ha creado su cuenta, por favor revise su correo para activarla');
                         $('#signup-error').modal();
                         setTimeout(function() {
                             var prot = window.location.protocol;
@@ -31,12 +31,16 @@ $(document).ready(function() {
                         }, 4000);
                     }
                     else if (data.errorMail && data.errorUsername) {
-                        $('#signup-error').html(data.errorMail + '<br>' + data.errorUsername);
+                        $('#errorRegistro').html(data.errorMail + '<br>' + data.errorUsername);
                         $('#signup-error').modal();
                     }
                     else {
                         if (data.errorMail) {
-                            $('#signup-error').html(data.errorMail);
+                            $('#errorRegistro').html(data.errorMail);
+                            $('#signup-error').modal();
+                        }
+                        else if (data.errorUsername) {
+                            $('#errorRegistro').html(data.errorMail);
                             $('#signup-error').modal();
                         }
                         else if (data.errorUsername) {
@@ -69,8 +73,10 @@ $(document).ready(function() {
                         var host = window.location.host;
                         window.location.href = prot + '//' + host + '/index.php/poste/';
                     }
-                    $('#login-error').html(data.error);
-                    $('#login-error').modal();
+                    else{
+                    	$('#errorIniciarSesion').html(data.error);
+                    	$('#login-error').modal();
+                    }
                 }
             });
         }
@@ -94,7 +100,7 @@ $(document).ready(function() {
                     var data = JSON.parse(data);
 
                     if (data.errorUsername) {
-                        $('#edit-error').html(data.errorUsername);
+                        $('#errorEdit').html(data.errorUsername);
                         $('#edit-error').modal();
                     }
                 }

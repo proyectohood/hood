@@ -32,13 +32,15 @@ class Hood extends CI_Controller {
 	//---------------------------------------------- Gets Functions --------------------------------
 	public function getAllHoods(){
 		$this->load->model("hood_model");
+		$data['currentUsername'] = $this->session->userdata('username');
 		$data["records"] = $this->hood_model->getAllHoods($_POST['iStart'], $_POST['iEnd']);
-		echo json_encode ($data["records"]);
+		echo json_encode ($data);
 	}
 	public function getHoodsByUser(){
 		$this->load->model("hood_model");
+		$data['currentUsername'] = $this->session->userdata('username');
 		$data["records"] = $this->hood_model->getHoodsByIdUser($this->session->userdata('id'),$_POST['iStart'], $_POST['iEnd']);
-		echo json_encode ($data["records"]);
+		echo json_encode ($data);
 	}
 
 	public function getLastHood(){

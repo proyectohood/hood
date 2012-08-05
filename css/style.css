@@ -385,11 +385,7 @@ header form .dropdown-menu{
 
 .container_general .row-fluid .span4 ul li:first-child{
   margin: 0px 0px 10px 0px;
-<<<<<<< HEAD
-  /*border-left: 1px solid #FFFFFF;*/
-=======
   border-left: 1px solid #FFFFFF;
->>>>>>> b647cedcf1e0acbae2202f9e85e333d7c7f7dde3
 }
 
 .container_general .row-fluid .span4 ul li:last-child{
