@@ -36,11 +36,17 @@
       <div class="span4 listaUsuarios">
         <h3>usuarios <span><?php echo $numberUsers ?></span></h3>
         <ul>
-            <?php 
+          <?php 
               foreach ($infoAllUsers as $clave => $valor){ ?>
                 <li class="clearfix">
-                  <a href="../perfil"><img src="<?php echo base_url() . 'img/userImages/' . $valor['url_img'] ?>"/></a>
-                  <a href="../perfil">
+                  <?php if($valor['username'] == $currentUser){ ?>
+                  <a href="<?php echo base_url() . "index.php/perfil/"; ?>"><img src="<?php echo base_url() . 'img/userImages/' . $valor['url_img'] ?>"/></a>
+                  <a href="<?php echo base_url() . "index.php/perfil/"; ?>">
+                  <?php } 
+                  		else{?>
+                  		<a href="<?php echo base_url() . "index.php/perfil/show/user/" . $valor['username'] ?>"><img src="<?php echo base_url() . 'img/userImages/' . $valor['url_img'] ?>"/></a>
+                  <a href="<?php echo base_url() . "index.php/perfil/show/user/" . $valor['username'] ?>">
+                  <?php } ?>
                     <h1><?php echo $valor['name'] . " " . $valor['last_name']; ?></h1>
                     <h2><?php echo $valor['job_position'] ?></h2>
                     <span>@<?php echo $valor['name'] ?></span>
@@ -48,7 +54,7 @@
                 </li>
             <?php   
                 }
-            ?>   
+            ?>
         </ul>
       </div>
 

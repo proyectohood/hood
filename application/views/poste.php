@@ -35,7 +35,7 @@
 
             <!-- Atributos de los inputs -->
             <?php 
-              $textHood = array('name' => 'texthood', 'class' => 'span9', 'id' => 'inputTextHood', 'placeholder' => 'Escriba su hood aqui..');
+              $textHood = array('name' => 'texthood', 'class' => 'span9', 'id' => 'inputTextHood', 'placeholder' => 'Escriba su hood aqui..', 'maxlength' => '500');
               $send_button = array('value' => '', 'name' => 'publicar', 'class' => 'btn send_formRegis', 'type' => 'submit', 'id' => 'btnInsertHood');
             ?>
 
@@ -45,6 +45,7 @@
               <a href="#" id="upload_button"></a>
               <iframe id="upload_frame" src="<?php echo base_url();?>index.php/gallery" frameborder="0" scrolling="no"></iframe>
             </div>
+            <span></span>
             <?php echo form_submit($send_button); ?>
           </fieldset>
 
@@ -60,12 +61,12 @@
               foreach ($infoAllUsers as $clave => $valor){ ?>
                 <li class="clearfix">
                   <?php if($valor['username'] == $currentUser){ ?>
-                  <a href="<?php echo base_url() . "index.php/login/"; ?>"><img src="<?php echo base_url() . 'img/userImages/' . $valor['url_img'] ?>"/></a>
-                  <a href="<?php echo base_url() . "index.php/login/"; ?>">
+                  <a href="<?php echo base_url() . "index.php/perfil/"; ?>"><img src="<?php echo base_url() . 'img/userImages/' . $valor['url_img'] ?>"/></a>
+                  <a href="<?php echo base_url() . "index.php/perfil/"; ?>">
                   <?php } 
                   		else{?>
-                  		<a href="<?php echo base_url() . "index.php/login/username/" . $valor['username'] ?>"><img src="<?php echo base_url() . 'img/userImages/' . $valor['url_img'] ?>"/></a>
-                  <a href="<?php echo base_url() . "index.php/login/username/" . $valor['username'] ?>">
+                  		<a href="<?php echo base_url() . "index.php/perfil/show/user/" . $valor['username'] ?>"><img src="<?php echo base_url() . 'img/userImages/' . $valor['url_img'] ?>"/></a>
+                  <a href="<?php echo base_url() . "index.php/perfil/show/user/" . $valor['username'] ?>">
                   <?php } ?>
                     <h1><?php echo $valor['name'] . " " . $valor['last_name']; ?></h1>
                     <h2><?php echo $valor['job_position'] ?></h2>
@@ -108,6 +109,11 @@
       </div>
     </div>
 
+
   </div>
+
+
+  
+    
   <script type="text/javascript" src="<?php echo base_url();?>js/chargeHoodsByAjax.js"></script>
 
