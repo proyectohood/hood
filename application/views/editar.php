@@ -130,9 +130,7 @@
               <a href="editar.html" class="btn-hood btn-warn">desactivar cuenta</a>
             </div>
           <?php echo form_close(); ?>
-          <iframe id="upload_frame_img" src="<?php echo base_url();?>index.php/editar/cargar_upload" frameborder="0" scrolling="no">
-            
-          </iframe>
+          <iframe id="upload_frame_img" src="<?php echo base_url();?>index.php/editar/cargar_upload" frameborder="0" scrolling="no"></iframe>
         </div>
         <div id="edit-error" class="modal hide fade"></div>
       </div>
