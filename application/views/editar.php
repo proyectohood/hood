@@ -89,7 +89,9 @@
             
             <div class="desactCuenta clearfix">
               <p>Si desactiva su cuenta no tendra acceso al sistema.</p>
+
               <a href="#modal-desactivarCuenta" class="btn-hood btn-warn btn-small" data-toggle="modal">desactivar cuenta</a>
+
             </div>
           <?php echo form_close(); ?>
           <iframe id="upload_frame_img" src="<?php echo base_url();?>index.php/editar/cargar_upload" frameborder="0" scrolling="no"></iframe>
