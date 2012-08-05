@@ -36,16 +36,10 @@ class Hood extends CI_Controller {
 		$allhoods = $this->hood_model->getAllHoods($_POST['iStart'], $_POST['iEnd']);
 		
 		$attach = $this->hood_model->getUrlAttachments();
-		
-		//echo var_dump ($allhoods); die();
-		for($i = 0; $i < count($allhoods);$i++){
-			for($j = 0; $j < count($attach); $j++){
-				if($allhoods[$i]['idHoods'] == $attach[$j]['idHood']){
-					$allhoods[$i]['filename'] = $attach[$j]['path'];
-				}
-				else{
-					$allhoods[$i]['filename'] = null;
-				}
+		foreach($allhoods as $hood){
+			foreach($attach as $file){
+				if($hood['idHoods'] == $file['idHood'])
+					$hood['filename'] = $file['idHood'];
 			}
 		}
 		$data["records"] = $allhoods;
@@ -54,8 +48,17 @@ class Hood extends CI_Controller {
 	public function getHoodsByUser(){
 		$this->load->model("hood_model");
 		$data['currentUsername'] = $this->session->userdata('username');
-		$data["records"] = $this->hood_model->getHoodsByIdUser($this->session->userdata('id'),$_POST['iStart'], $_POST['iEnd']);
-		echo json_encode ($data);
+		$data["records"] = $this->hood_model->getHoodsByIdUser($this->session->userdata('id'));
+		//print_r($data); die();
+		$j = 0;
+		for ($i = $_POST['iStart']; $i < $_POST['iEnd']; $i++) {
+			$arrayInRange["records"][$i] = $data["records"][$j];
+			//echo json_encode ($data["records"][$i]); 
+			$j++;
+			//echo $i; 
+		}
+		//die();
+		echo json_encode ($arrayInRange);
 	}
 	public function getHoodsByUsername(){
 		$username = $this->input->post('username');
