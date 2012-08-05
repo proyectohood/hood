@@ -21,7 +21,11 @@ class Editar extends CI_Controller
 		$hoodsQ = $this->hood_model->getCountHoods($userid);
 		$userQ = $this->hood_model->getCountUsers();
 		$attachmentsQ = $this->hood_model->getCountAttachmentsbyId($userid);
+<<<<<<< HEAD
 		$data['currentUser'] = $currusername;
+=======
+
+>>>>>>> 55bb6bc7b5886a2e92ccd59cffab65a3aefb921b
 		$data['infoAllUsers'] = $this->hood_model->getInfoUser();
 		$data['numberHoods'] = $hoodsQ[0]['COUNT(*)'];
 		$data['numberUsers'] = $userQ[0]["COUNT(*)"];

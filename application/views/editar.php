@@ -24,7 +24,7 @@
           </li>
           <li class="span4">
             <h1>adjuntos</h1>
-            <h2>10</h2>
+            <h2 class="attachmentsAmount"><?php echo $numberAttachments ?></h2>
           </li>
           <li class="span4 clearfix">
             <h1>suscripcion</h1>
