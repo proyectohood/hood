@@ -6,7 +6,7 @@ $(document).ready(function(){
 		keyboard: false
 	}, 'toggle');
 
-	$('#errorLogin').modal({
+	$('#modal-desactivarCuenta').modal({
 		show: false,
 		keyboard: false
 	}, 'toggle');

@@ -2,7 +2,9 @@
     <div class="container-fluid span12">
       <h1><a href="#">hood</a></h1>
       
-          <a class="mini_icon_hood" href="#modal-editarHood"  data-toggle="modal"></a>
+
+      <a class="mini_icon_hood" href="#modal-editarHood" data-toggle="modal"></a>
+
 
       <div class="btn-group pull-right">
               <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">

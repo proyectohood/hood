@@ -81,19 +81,43 @@
                 <?php echo form_input($password2); ?>
                 <?php echo form_error('password2'); ?>
               </p>
+
+              <iframe id="upload_frame_img" src="<?php echo base_url();?>index.php/editar/cargar_upload" frameborder="0" scrolling="no"></iframe>
+
               <?php echo form_submit($send_button); ?>
             </fieldset>
             
             <div class="desactCuenta clearfix">
               <p>Si desactiva su cuenta no tendra acceso al sistema.</p>
-              <a href="editar.html" class="btn-hood btn-warn btn-small">desactivar cuenta</a>
+
+              <a href="#modal-desactivarCuenta" class="btn-hood btn-warn btn-small" data-toggle="modal">desactivar cuenta</a>
+
             </div>
           <?php echo form_close(); ?>
-          <iframe id="upload_frame_img" src="<?php echo base_url();?>index.php/editar/cargar_upload" frameborder="0" scrolling="no">
-            
-          </iframe>
+          <iframe id="upload_frame_img" src="<?php echo base_url();?>index.php/editar/cargar_upload" frameborder="0" scrolling="no"></iframe>
         </div>
         <div id="edit-error" class="modal hide fade"></div>
+
+
+         <!-- Modal editar Hood -->
+
+      <div class="modal hide fade" id="modal-desactivarCuenta">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h1>¿Que quieres compartir?</h1>
+        </div>
+        <div class="modal-body">
+          <form>
+            <fieldset>
+                <textarea placeholder="Escriba su hood aqui.." class="span7"></textarea>
+                <a href="#"></a>
+                <input type="submit" name="publicar" value="" class="btn send_formRegis">
+            </fieldset>
+          </form>
+        </div>
+      </div>
+
+
       </div>
     </div>
 

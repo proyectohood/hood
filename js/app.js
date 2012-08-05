@@ -43,6 +43,7 @@ $(document).ready(function() {
                             $('#errorRegistro').html(data.errorMail);
                             $('#signup-error').modal();
                         }
+                        
                     }
                 }
             });
