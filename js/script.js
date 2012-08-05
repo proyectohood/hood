@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 	
-	$('#editarHood').modal({
+	$('#modal-editarHood').modal({
 		show: false,
 		keyboard: false
 	}, 'toggle');

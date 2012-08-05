@@ -1,5 +1,5 @@
 <body>
-  <?php $this->load->view('includes/header_content'); ?>
+  <?php $this->load->view('includes/header_content');?>
 
   <div class="container-fluid container_general span12">
 
@@ -53,14 +53,20 @@
       <?php echo form_close();?>
       </div>
 
-      <div class="span4">
+      <div class="span4 listaUsuarios">
         <h3>usuarios <span><?php echo $numberUsers ?></span></h3>
         <ul>
           <?php 
               foreach ($infoAllUsers as $clave => $valor){ ?>
                 <li class="clearfix">
-                  <a href="../perfil"><img src="<?php echo base_url() . 'img/userImages/' . $valor['url_img'] ?>"/></a>
-                  <a href="../perfil">
+                  <?php if($valor['username'] == $currentUser){ ?>
+                  <a href="<?php echo base_url() . "index.php/login/"; ?>"><img src="<?php echo base_url() . 'img/userImages/' . $valor['url_img'] ?>"/></a>
+                  <a href="<?php echo base_url() . "index.php/login/"; ?>">
+                  <?php } 
+                  		else{?>
+                  		<a href="<?php echo base_url() . "index.php/login/username/" . $valor['username'] ?>"><img src="<?php echo base_url() . 'img/userImages/' . $valor['url_img'] ?>"/></a>
+                  <a href="<?php echo base_url() . "index.php/login/username/" . $valor['username'] ?>">
+                  <?php } ?>
                     <h1><?php echo $valor['name'] . " " . $valor['last_name']; ?></h1>
                     <h2><?php echo $valor['job_position'] ?></h2>
                     <span>@<?php echo $valor['name'] ?></span>

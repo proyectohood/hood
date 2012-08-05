@@ -2,7 +2,7 @@
     <div class="container-fluid span12">
       <h1><a href="#">hood</a></h1>
       
-          <a class="mini_icon_hood" href="#"></a>
+          <a class="mini_icon_hood" href="#modal-editarHood"  data-toggle="modal"></a>
 
       <div class="btn-group pull-right">
               <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
@@ -11,7 +11,6 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a href="#"><img src="<?php echo base_url() ?>img/userImages/user.jpg"> Perfil</a></li>
-                <li class="divider"></li>
                 <li><a href="#">Cerrar sesi&oacute;n</a></li>
               </ul>
           </div>
@@ -36,5 +35,26 @@
                 </ul>
               </div>
       </form>
+
+
+
+      <!-- Modal editar Hood -->
+
+      <div class="modal hide fade" id="modal-editarHood">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h1>¿Que quieres compartir?</h1>
+        </div>
+        <div class="modal-body">
+          <form>
+            <fieldset>
+                <textarea placeholder="Escriba su hood aqui.." class="span7"></textarea>
+                <a href="#"></a>
+                <input type="submit" name="publicar" value="" class="btn send_formRegis" id="modal-btnInsertHood">
+            </fieldset>
+          </form>
+        </div>
+      </div>
+
     </div>
   </header>

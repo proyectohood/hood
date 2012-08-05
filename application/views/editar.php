@@ -1,55 +1,14 @@
 
 <body>
 
-  <header class="container-fluid">
-    <div class="container-fluid span12">
-      <h1><a href="#">hood</a></h1>
-      
-          <a class="mini_icon_hood" href="#"></a>
-
-      <div class="btn-group pull-right">
-              <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                <i class="icon-user confOptions"></i>
-                <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="perfil.php"><img src="img/img_perfil_mini.png"> Perfil</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Cerrar sesi&oacute;n</a></li>
-              </ul>
-          </div>
-
-          <form>
-        <input type="text" placeholder="Buscar">
-              <div class="btn-group pull-right">
-                <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                  <i class="icon-user buscarOptions"></i>
-                  <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                     <a href="#">@</a>
-                  </li>
-                  <li class="divider"></li>
-                  <li>
-                     <a href="#" class="icon-envelope"></a>
-                  </li>
-                  <li class="divider"></li>
-                  <li>
-                     <a href="#" class="icon-envelope"></a>
-                  </li>
-                </ul>
-              </div>
-      </form>
-    </div>
-  </header>
+  <?php $this->load->view('includes/header_content'); ?>
 
   <div class="container-fluid container_general span12">
 
     <div class="row-fluid">
 
       <div class="hood-body-box content_top">
-        <a href="editar.html" class="btn-hood btn-normal">editar</a>
+        <a href="editar.html" class="btn-hood btn-normal btn-small">editar</a>
         <div class="span7">
           <img src="<?php echo base_url() . 'img/userImages/'.$url_img ?>"/>
           <h1><?php echo $name . " " . $last_name; ?></h1>
@@ -69,13 +28,13 @@
           </li>
           <li class="span4 clearfix">
             <h1>suscripcion</h1>
-            <a href="#" class="btn-hood btn-warn">RSS</a>
+            <a href="#" class="btn-hood btn-warn btn-small">RSS</a>
           </li>
         </ul>
 
       </div>
 
-      <div class="span4">
+      <div class="span4 listaUsuarios">
         <h3>usuarios <span><?php echo $numberUsers ?></span></h3>
         <ul>
           <?php 
@@ -107,7 +66,7 @@
               <?php 
                 $user_name = array('name' => 'username', 'id' => 'username', 'placeholder' => 'Nombre de usuario', 'value' => set_value('username'));
                 $pwd = array('name' => 'password', 'id' => 'password', 'placeholder' => 'Contraseña');
-                $send_button = array('value' => '', 'name' => 'Guardar', 'type' => 'submit', 'id' => 'loginEditar');
+                $send_button = array('value' => '', 'name' => 'Guardar', 'type' => 'submit', 'id' => 'loginEditar', 'class' => 'btn-small');
               ?>
               <p class="clearfix">
                 <?php echo form_input($user_name); ?>
@@ -127,7 +86,7 @@
             
             <div class="desactCuenta clearfix">
               <p>Si desactiva su cuenta no tendra acceso al sistema.</p>
-              <a href="editar.html" class="btn-hood btn-warn">desactivar cuenta</a>
+              <a href="editar.html" class="btn-hood btn-warn btn-small">desactivar cuenta</a>
             </div>
           <?php echo form_close(); ?>
           <iframe id="upload_frame_img" src="<?php echo base_url();?>index.php/editar/cargar_upload" frameborder="0" scrolling="no">

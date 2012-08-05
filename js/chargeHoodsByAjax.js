@@ -16,7 +16,7 @@ $(document).ready(function(){
 	/		15		//	"probando"		   /					
 	////////////////////////////////////////
 	////////////////////////////////////////
-	/		16		//	"ultimo ingresado" /    <---- iEndHoods					
+	/		16		//	"ultimo ingresado" /    <---- iEndHoods				
 	////////////////////////////////////////			
 	/
 	/
@@ -84,8 +84,10 @@ $(document).ready(function(){
 		}
 		function infiteScroll(){
 			$(window).scroll(function () { 
-				console.log($(window).scrollTop() + " --- " + ($(document).height() - $(window).height()));
-				if(($(window).scrollTop() + 1) == ($(document).height() - $(window).height())){
+				var scrollHeight = $(window).scrollTop() + 1;
+				var windowHeight = ($(document).height() - $(window).height());
+				console.log(scrollHeight + " --- " + windowHeight);
+				if((scrollHeight >= windowHeight-10) && (scrollHeight <= windowHeight+10)){
 					getMoreHoods();
 				}
 			});
@@ -93,11 +95,16 @@ $(document).ready(function(){
 	// ------------------------------ Print Function ------------------------------------------
 
 		function printHoodsInPoste(response,option){
-			var result = jQuery.parseJSON(response);
+			var result = JSON.parse(response);
+			currentUser = result.currentUsername;
+			result = result.records;
 			var html = "";
 			$.each(result,function(index,value){
 				html += "<div>";
-	            html += "<a href='../perfil'>";
+				if(value.username == currentUser)
+	            	html += "<a href='"+ window.location.protocol +"//"+ window.location.host +"/index.php/perfil/'>";
+	            else
+	            	html += "<a href='"+ window.location.protocol +"//"+ window.location.host +"/index.php/perfil/user/"+value.username+"'>";
 	            html += "<img src='"+ window.location.protocol +"//"+ window.location.host +"/img/userImages/"+value.url_img+"'/>";
 	            html += "<h1>"+value.user+ ' ' +value.last_name+"</h1>";
 	            html += "<span>@"+ value.username +"</span>";
