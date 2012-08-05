@@ -83,6 +83,14 @@
 	    <?php echo form_close(); ?>
 
 	</div>
-	<div id="signup-error" class="modal hide fade"></div>
+	<div id="signup-error" class="modal hide fade">
+		<div class="modal-header">
+          	<button type="button" class="close" data-dismiss="modal">×</button>
+		    <h1>Registro Hood</h1>
+        </div>
+        <div class="modal-body">
+			<p id="errorRegistro"></p>
+		</div>
+	</div>
 </body>
 </html>

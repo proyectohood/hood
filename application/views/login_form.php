@@ -49,6 +49,14 @@
 		<!-- Cerrar el formulario -->
 	    <?php echo form_close(); ?>
 	</div>
-	<div id="login-error" class="modal hide fade"></div>
+	<div id="login-error" class="modal hide fade">
+		<div class="modal-header">
+          	<button type="button" class="close" data-dismiss="modal">×</button>
+		    <h1>Error al Iniciar Sesi&oacute;n</h1>
+        </div>
+        <div class="modal-body">
+			<p id="errorIniciarSesion"></p>
+		</div>
+	</div>
 </body>
 </html>

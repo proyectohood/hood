@@ -1,0 +1,193 @@
+[03-Aug-2012 11:22:30] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:22:30] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:22:30] PHP Fatal error:  Call to a member function getName() on a non-object in /home4/mindevel/public_html/proyectohood/phpmyadmin/libraries/common.inc.php on line 738
+[03-Aug-2012 11:26:47] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:26:47] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:27:08] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:27:08] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:27:11] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:27:11] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:27:15] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:27:15] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:28:31] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:28:31] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:28:31] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:28:31] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:28:51] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:28:51] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:28:52] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:28:52] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:28:53] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:28:53] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:28:53] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:28:53] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:28:53] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:28:53] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:28:57] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:28:57] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:29:12] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:29:12] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:31:41] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:31:41] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:31:41] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:31:41] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:31:43] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:31:43] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:33:18] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:33:18] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:33:19] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:33:19] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:33:19] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:33:19] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:33:20] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:33:20] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:33:24] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:33:24] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:33:31] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:33:31] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:33:31] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:33:31] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:33:33] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:33:33] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:34:48] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:34:48] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:34:49] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:34:49] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:34:49] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:34:49] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:34:49] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:34:49] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:34:53] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:34:53] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:34:53] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:34:53] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[03-Aug-2012 11:37:19] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[03-Aug-2012 11:37:19] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
